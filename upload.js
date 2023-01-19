@@ -70,12 +70,16 @@ export function upload(selector, options = {}) {
           `
           <div class="preview-image">
             <div class="preview-remove" data-name="${file.name}">&times;</div>
-            <img src="${src}" alt="${file.name}" />
+           
+           <div>
+            <video src="${src}" alt="${file.name}" />
+           </div>
+            
             <div class="preview-info">
             <span>${file.name}</span>
               ${bytesToSize(file.size)}
             </div>
-          </div>
+          </.div>
         `
         );
       };

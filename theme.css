@@ -70,7 +70,7 @@ input[type="file"] {
   transition: transform 0.3s;
 }
 
-.preview-image vi {
+.preview-image video {
   width: 180px;
   height: auto;
 }
@@ -97,6 +97,7 @@ input[type="file"] {
   justify-content: center;
   cursor: pointer;
   transition: opacity 0.22s;
+  z-index: 5;
 }
 
 .preview-info {
